@@ -10,6 +10,16 @@
 
 **ApkaNeta** is an open-source civic-tech platform bringing radical transparency to Indian public governance. It empowers citizens to explore all **36 States & Union Territories**, inspect their modern **791 administrative districts**, track elected **Members of Parliament (MPs)** and **Chief Ministers**, audit public civic tenders, and visualize judicial & financial disclosures sourced directly from the **Association for Democratic Reforms (ADR)** and **MyNeta**.
 
+> [!IMPORTANT]
+> **Educational & Experimental Disclaimer:**
+> **ApkaNeta is currently in an experimental prototype stage and is created strictly for educational, academic research, and civic transparency demonstration purposes only.** All information is compiled from publicly published statutory records (Election Commission of India affidavits, Association for Democratic Reforms analysis, and official state government gazettes). It is not affiliated with any political party or government department.
+
+---
+
+## 📸 Platform Preview
+
+![ApkaNeta Interactive Civic & Leadership Dashboard](docs/images/demo.png)
+
 ---
 
 ## 📑 Table of Contents
@@ -98,6 +108,8 @@ ApkaNeta makes this distinction transparent in every representative's scorecard 
 ---
 
 ## 🇮🇳 100% Rajasthan MP Coverage
+
+![Rajasthan 100% MP Pinned Map](docs/images/rajasthan_heatmap.png)
 
 Every single district in Rajasthan is mapped with its verified 18th Lok Sabha representative and official candidate portrait:
 
