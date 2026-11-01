@@ -16,13 +16,31 @@
 
 ---
 
-## 📸 Platform Preview
+## 📸 Visual Tour: 3-Level Governance Flow
 
-![ApkaNeta Interactive Civic & Leadership Dashboard](docs/images/demo.png)
+### Level 1: National Constitutional & Executive Overview
+*Interactive Pan-India map displaying all 36 States & UTs with live Chief Minister avatar pins and constitutional leadership:*
+
+![Level 1: National Constitutional & Executive Overview](docs/images/level_1_national.png)
+
+---
+
+### Level 2: State Administrative Map & ADR Crime Heatmap
+*District-level vector map featuring the 5-tier ADR Crime Heatmap, dynamic polygon color grading, 33 MP avatar pins, and prominent `⚠️ CONVICTED` representative scorecards:*
+
+![Level 2: State Map & ADR Crime Heatmap](docs/images/level_2_state_crime_heatmap.png)
+
+---
+
+### Level 3: Hyperlocal Pilot (Bhiwadi / Khairthal-Tijara)
+*Subdivision and ward-level auditing tracking local assembly MLAs (Tijara & Kishangarh Bas), municipal bodies, and active civic contracts/tenders:*
+
+![Level 3: Hyperlocal Pilot in Bhiwadi](docs/images/level_3_hyperlocal_pilot.png)
 
 ---
 
 ## 📑 Table of Contents
+- [Visual Tour: 3-Level Governance Flow](#-visual-tour-3-level-governance-flow)
 - [Key Capabilities](#-key-capabilities)
 - [Administrative Geography vs. Electoral Geography (791 vs. 543)](#-administrative-geography-vs-electoral-geography)
 - [ADR Crime Heatmap & Severity Classification](#-adr-crime-heatmap--severity-classification)
