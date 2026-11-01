@@ -1,0 +1,23 @@
+{
+  "president": {
+    "name": "Smt. Droupadi Murmu",
+    "designation": "Hon'ble President of India",
+    "term": "2022 – Present",
+    "photo": "/images/leaders/president_droupadi_murmu.jpg",
+    "description": "Head of State & Supreme Commander of Indian Armed Forces"
+  },
+  "vicePresident": {
+    "name": "Shri Jagdeep Dhankhar",
+    "designation": "Hon'ble Vice President of India",
+    "term": "2022 – Present",
+    "photo": "/images/leaders/vp_jagdeep_dhankhar.jpg",
+    "description": "Ex-officio Chairman of the Rajya Sabha"
+  },
+  "primeMinister": {
+    "name": "Shri Narendra Modi",
+    "designation": "Hon'ble Prime Minister of India",
+    "term": "2014 – Present",
+    "photo": "/images/leaders/pm_narendra_modi.jpg",
+    "description": "Head of the Government of India"
+  }
+}

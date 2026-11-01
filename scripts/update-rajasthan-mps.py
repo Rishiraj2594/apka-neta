@@ -1,0 +1,436 @@
+import json, os
+
+# Full accurate 25 Lok Sabha Parliamentary Constituencies of Rajasthan (18th Lok Sabha 2024-2029)
+RAJASTHAN_25_MPS = {
+    "Alwar": {
+        "mp": "Bhupender Yadav",
+        "party": "BJP",
+        "constituency": "Alwar Lok Sabha (No. 8)",
+        "photo": "/images/leaders/mps/alwar.jpg",
+        "portfolio": "Cabinet Minister (MoEF&CC)",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate Professional (LL.B.)",
+        "assets": "Rs 8,63,65,793 ~ 8 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=360",
+        "wiki": "Bhupender Yadav"
+    },
+    "Ajmer": {
+        "mp": "Bhagirath Choudhary",
+        "party": "BJP",
+        "constituency": "Ajmer Lok Sabha",
+        "photo": "/images/leaders/mps/ajmer.jpg",
+        "portfolio": "Union Minister of State (Agriculture)",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "12th Pass",
+        "assets": "Rs 3,89,61,691 ~ 3 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1134",
+        "wiki": "Bhagirath Choudhary"
+    },
+    "Banswara": {
+        "mp": "Rajkumar Roat",
+        "party": "BAP",
+        "constituency": "Banswara Lok Sabha (ST)",
+        "photo": "/images/leaders/mps/banswara.jpg",
+        "portfolio": "National Leader, BAP",
+        "criminalCases": 1,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate Professional (LL.B.)",
+        "assets": "Rs 1,46,01,165 ~ 1 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1415",
+        "wiki": "Rajkumar Roat"
+    },
+    "Barmer": {
+        "mp": "Ummeda Ram Beniwal",
+        "party": "INC",
+        "constituency": "Barmer Lok Sabha",
+        "photo": "/images/leaders/mps/barmer.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate",
+        "assets": "Rs 44,52,59,482 ~ 44 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1142",
+        "wiki": "Ummeda Ram Beniwal"
+    },
+    "Bharatpur": {
+        "mp": "Sanjana Jatav",
+        "party": "INC",
+        "constituency": "Bharatpur Lok Sabha (SC)",
+        "photo": "/images/leaders/mps/bharatpur.jpg",
+        "portfolio": "Member of Parliament (Youngest MP)",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate Professional (LL.B.)",
+        "assets": "Rs 23,28,491 ~ 23 Lacs+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=574",
+        "wiki": "Sanjana Jatav"
+    },
+    "Bikaner": {
+        "mp": "Arjun Ram Meghwal",
+        "party": "BJP",
+        "constituency": "Bikaner Lok Sabha (SC)",
+        "photo": "/images/leaders/mps/bikaner.jpg",
+        "portfolio": "Union Minister of State (Law & Justice)",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 3,12,05,584 ~ 3 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=367",
+        "wiki": "Arjun Ram Meghwal"
+    },
+    "Bhilwara": {
+        "mp": "Damodar Agarwal",
+        "party": "BJP",
+        "constituency": "Bhilwara Lok Sabha",
+        "photo": "/images/leaders/mps/bhilwara.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 1,
+        "convicted": True,
+        "convictionDetails": "Criminal Case No.22/1976 Chief Judicial Magistrate, Bhilwara Rule 43(1)(a) Defense of India Rules",
+        "education": "Post Graduate",
+        "assets": "Rs 7,37,84,334 ~ 7 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1417",
+        "wiki": "Damodar Agarwal"
+    },
+    "Chittorgarh": {
+        "mp": "Chandra Prakash Joshi",
+        "party": "BJP",
+        "constituency": "Chittorgarh Lok Sabha",
+        "photo": "/images/leaders/mps/chittorgarh.jpg",
+        "portfolio": "State President, BJP Rajasthan",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 9,67,29,788 ~ 9 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1414",
+        "wiki": "Chandra Prakash Joshi"
+    },
+    "Churu": {
+        "mp": "Rahul Kaswan",
+        "party": "INC",
+        "constituency": "Churu Lok Sabha",
+        "photo": "/images/leaders/mps/churu.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate",
+        "assets": "Rs 11,54,41,600 ~ 11 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=372",
+        "wiki": "Rahul Kaswan"
+    },
+    "Dausa": {
+        "mp": "Murari Lal Meena",
+        "party": "INC",
+        "constituency": "Dausa Lok Sabha (ST)",
+        "photo": "/images/leaders/mps/dausa.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Diploma Civil Engineering",
+        "assets": "Rs 8,24,67,918 ~ 8 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=585",
+        "wiki": "Murari Lal Meena"
+    },
+    "Ganganagar": {
+        "mp": "Kuldeep Indora",
+        "party": "INC",
+        "constituency": "Ganganagar Lok Sabha (SC)",
+        "photo": "/images/leaders/mps/ganganagar.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate",
+        "assets": "Rs 12,87,31,012 ~ 12 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=364",
+        "wiki": "Kuldeep Indora"
+    },
+    "Jaipur": {
+        "mp": "Manju Sharma",
+        "party": "BJP",
+        "constituency": "Jaipur Lok Sabha",
+        "photo": "/images/leaders/mps/jaipur.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 4,68,97,092 ~ 4 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=581",
+        "wiki": "Manju Sharma (politician)"
+    },
+    "Jaipur Rural": {
+        "mp": "Rao Rajendra Singh",
+        "party": "BJP",
+        "constituency": "Jaipur Rural Lok Sabha",
+        "photo": "/images/leaders/mps/jaipur_rural.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate",
+        "assets": "Rs 38,71,11,811 ~ 38 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=592",
+        "wiki": "Rao Rajendra Singh"
+    },
+    "Jalore": {
+        "mp": "Lumbaram Choudhary",
+        "party": "BJP",
+        "constituency": "Jalore Lok Sabha",
+        "photo": "/images/leaders/mps/jalore.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "10th Pass",
+        "assets": "Rs 1,44,83,721 ~ 1 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1408",
+        "wiki": "Lumbaram Choudhary"
+    },
+    "Jhalawar": {
+        "mp": "Dushyant Singh",
+        "party": "BJP",
+        "constituency": "Jhalawar-Baran Lok Sabha",
+        "photo": "/images/leaders/mps/jhalawar.jpg",
+        "portfolio": "Member of Parliament (5th term)",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate (MBA)",
+        "assets": "Rs 44,79,16,846 ~ 44 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1420",
+        "wiki": "Dushyant Singh"
+    },
+    "Jhunjhunu": {
+        "mp": "Brijendra Singh Ola",
+        "party": "INC",
+        "constituency": "Jhunjhunu Lok Sabha",
+        "photo": "/images/leaders/mps/jhunjhunu.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 15,31,06,204 ~ 15 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=375",
+        "wiki": "Brijendra Singh Ola"
+    },
+    "Jodhpur": {
+        "mp": "Gajendra Singh Shekhawat",
+        "party": "BJP",
+        "constituency": "Jodhpur Lok Sabha",
+        "photo": "/images/leaders/mps/jodhpur.jpg",
+        "portfolio": "Cabinet Minister (Culture & Tourism)",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 10,21,12,654 ~ 10 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1138",
+        "wiki": "Gajendra Singh Shekhawat"
+    },
+    "Karauli": {
+        "mp": "Bhajan Lal Jatav",
+        "party": "INC",
+        "constituency": "Karauli-Dholpur Lok Sabha (SC)",
+        "photo": "/images/leaders/mps/karauli.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 1,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "10th Pass",
+        "assets": "Rs 1,41,61,623 ~ 1 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=577",
+        "wiki": "Bhajan Lal Jatav"
+    },
+    "Kota": {
+        "mp": "Om Birla",
+        "party": "BJP",
+        "constituency": "Kota-Bundi Lok Sabha",
+        "photo": "/images/leaders/mps/kota.jpg",
+        "portfolio": "Hon'ble Speaker of Lok Sabha",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 10,83,76,211 ~ 10 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1418",
+        "wiki": "Om Birla"
+    },
+    "Nagaur": {
+        "mp": "Hanuman Beniwal",
+        "party": "RLP",
+        "constituency": "Nagaur Lok Sabha",
+        "photo": "/images/leaders/mps/nagaur.jpg",
+        "portfolio": "National Convener, RLP",
+        "criminalCases": 3,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate Professional (LL.B.)",
+        "assets": "Rs 1,32,01,178 ~ 1 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1152",
+        "wiki": "Hanuman Beniwal"
+    },
+    "Pali": {
+        "mp": "P. P. Chaudhary",
+        "party": "BJP",
+        "constituency": "Pali Lok Sabha",
+        "photo": "/images/leaders/mps/pali.jpg",
+        "portfolio": "Senior Advocate & MP",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate Professional (LL.B.)",
+        "assets": "Rs 35,46,67,112 ~ 35 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1148",
+        "wiki": "P. P. Chaudhary"
+    },
+    "Rajsamand": {
+        "mp": "Mahima Kumari Mewar",
+        "party": "BJP",
+        "constituency": "Rajsamand Lok Sabha",
+        "photo": "/images/leaders/mps/rajsamand.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Graduate",
+        "assets": "Rs 27,62,47,159 ~ 27 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1414",
+        "wiki": "Mahima Kumari Mewar"
+    },
+    "Sikar": {
+        "mp": "Amra Ram",
+        "party": "CPI(M)",
+        "constituency": "Sikar Lok Sabha",
+        "photo": "/images/leaders/mps/sikar.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 1,18,04,364 ~ 1 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=381",
+        "wiki": "Amra Ram"
+    },
+    "Tonk": {
+        "mp": "Harish Chandra Meena",
+        "party": "INC",
+        "constituency": "Tonk-Sawai Madhopur Lok Sabha",
+        "photo": "/images/leaders/mps/tonk.jpg",
+        "portfolio": "Former DGP & MP",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 12,68,14,354 ~ 12 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1155",
+        "wiki": "Harish Chandra Meena"
+    },
+    "Udaipur": {
+        "mp": "Manna Lal Rawat",
+        "party": "BJP",
+        "constituency": "Udaipur Lok Sabha (ST)",
+        "photo": "/images/leaders/mps/udaipur.jpg",
+        "portfolio": "Member of Parliament",
+        "criminalCases": 0,
+        "convicted": False,
+        "convictionDetails": None,
+        "education": "Post Graduate",
+        "assets": "Rs 7,37,12,410 ~ 7 Crore+",
+        "myneta_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=1411",
+        "wiki": "Manna Lal Rawat"
+    }
+}
+
+# Mapping of all administrative districts in Rajasthan to their corresponding PC
+DISTRICT_TO_PC = {
+    # 33 Core Districts
+    "Alwar": "Alwar",
+    "Ajmer": "Ajmer",
+    "Banswara": "Banswara",
+    "Barmer": "Barmer",
+    "Bharatpur": "Bharatpur",
+    "Bikaner": "Bikaner",
+    "Bhilwara": "Bhilwara",
+    "Chittorgarh": "Chittorgarh",
+    "Churu": "Churu",
+    "Dausa": "Dausa",
+    "Ganganagar": "Ganganagar",
+    "Jaipur": "Jaipur",
+    "Jaipur Rural": "Jaipur Rural",
+    "Jalore": "Jalore",
+    "Jhalawar": "Jhalawar",
+    "Jhunjhunu": "Jhunjhunu",
+    "Jodhpur": "Jodhpur",
+    "Karauli": "Karauli",
+    "Kota": "Kota",
+    "Nagaur": "Nagaur",
+    "Pali": "Pali",
+    "Rajsamand": "Rajsamand",
+    "Sikar": "Sikar",
+    "Tonk": "Tonk",
+    "Udaipur": "Udaipur",
+    "Hanumangarh": "Ganganagar",
+    "Jaisalmer": "Barmer",
+    "Bundi": "Kota",
+    "Baran": "Jhalawar",
+    "Sirohi": "Jalore",
+    "Dungarpur": "Banswara",
+    "Pratapgarh": "Chittorgarh",
+    "Dholpur": "Karauli",
+    "Sawai Madhopur": "Tonk",
+
+    # Newly formed 2026 Rajasthan Districts
+    "Khairthal-Tijara": "Alwar",
+    "Kotputli-Behror": "Jaipur Rural",
+    "Balotra": "Barmer",
+    "Didwana-Kuchaman": "Nagaur",
+    "Beawar": "Ajmer",
+    "Kekri": "Ajmer",
+    "Sanchore": "Jalore",
+    "Phalodi": "Jodhpur",
+    "Anupgarh": "Ganganagar",
+    "Deeg": "Bharatpur",
+    "Salumber": "Udaipur",
+    "Shahpura": "Bhilwara",
+    "Gangapur City": "Tonk",
+    "Dudu": "Jaipur",
+    "Jodhpur Rural": "Jodhpur"
+}
+
+# Compile complete dictionary for Rajasthan
+full_rajasthan_mps = {}
+for district, pc in DISTRICT_TO_PC.items():
+    mp_data = dict(RAJASTHAN_25_MPS[pc])
+    full_rajasthan_mps[district] = mp_data
+
+print(f"Total mapped districts for Rajasthan: {len(full_rajasthan_mps)}")
+
+# Write to mps-rajasthan.json
+with open('/Users/rishirajsingh/Documents/projects/apka-neta/src/data/mps-rajasthan.json', 'w') as f:
+    json.dump(full_rajasthan_mps, f, indent=2)
+print("Updated src/data/mps-rajasthan.json!")
+
+# Also update src/data/all-district-mps.json under Rajasthan
+with open('/Users/rishirajsingh/Documents/projects/apka-neta/src/data/all-district-mps.json', 'r') as f:
+    all_data = json.load(f)
+
+all_data['byStateDistrict']['Rajasthan'] = full_rajasthan_mps
+for d, info in full_rajasthan_mps.items():
+    all_data['byDistrict'][d] = info
+
+with open('/Users/rishirajsingh/Documents/projects/apka-neta/src/data/all-district-mps.json', 'w') as f:
+    json.dump(all_data, f, indent=2)
+print("Updated src/data/all-district-mps.json!")

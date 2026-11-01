@@ -1,0 +1,281 @@
+{
+  "andhra-pradesh": {
+    "name": "N. Chandrababu Naidu",
+    "honorific": "Shri",
+    "party": "TDP",
+    "color": "#FFD700",
+    "state": "Andhra Pradesh",
+    "wiki": "N. Chandrababu Naidu",
+    "photo": "/images/leaders/cms/andhra-pradesh.jpg"
+  },
+  "arunachal-pradesh": {
+    "name": "Pema Khandu",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Arunachal Pradesh",
+    "wiki": "Pema Khandu",
+    "photo": "/images/leaders/cms/arunachal-pradesh.jpg"
+  },
+  "assam": {
+    "name": "Himanta Biswa Sarma",
+    "honorific": "Dr.",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Assam",
+    "wiki": "Himanta Biswa Sarma",
+    "photo": "/images/leaders/cms/assam.jpg"
+  },
+  "bihar": {
+    "name": "Samrat Choudhary",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Bihar",
+    "wiki": "Samrat Choudhary",
+    "photo": "/images/leaders/cms/samrat_choudhary.jpg"
+  },
+  "chhattisgarh": {
+    "name": "Vishnu Deo Sai",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Chhattisgarh",
+    "wiki": "Vishnu Deo Sai",
+    "photo": "/images/leaders/cms/chhattisgarh.jpg"
+  },
+  "delhi": {
+    "name": "Rekha Gupta",
+    "honorific": "Smt.",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Delhi",
+    "wiki": "Rekha Gupta",
+    "photo": "/images/leaders/cms/rekha_gupta.jpg"
+  },
+  "goa": {
+    "name": "Pramod Sawant",
+    "honorific": "Dr.",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Goa",
+    "wiki": "Pramod Sawant",
+    "photo": "/images/leaders/cms/goa.jpg"
+  },
+  "gujarat": {
+    "name": "Bhupendrabhai Patel",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Gujarat",
+    "wiki": "Bhupendrabhai Patel",
+    "photo": "/images/leaders/cms/gujarat.jpg"
+  },
+  "haryana": {
+    "name": "Nayab Singh Saini",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Haryana",
+    "wiki": "Nayab Singh Saini",
+    "photo": "/images/leaders/cms/haryana.jpg"
+  },
+  "himachal-pradesh": {
+    "name": "Sukhvinder Singh Sukhu",
+    "honorific": "Shri",
+    "party": "INC",
+    "color": "#00AEEF",
+    "state": "Himachal Pradesh",
+    "wiki": "Sukhvinder Singh Sukhu",
+    "photo": "/images/leaders/cms/himachal-pradesh.jpg"
+  },
+  "jammu-and-kashmir": {
+    "name": "Omar Abdullah",
+    "honorific": "Shri",
+    "party": "JKNC",
+    "color": "#DA251C",
+    "state": "Jammu and Kashmir",
+    "wiki": "Omar Abdullah",
+    "photo": "/images/leaders/cms/jammu-and-kashmir.jpg"
+  },
+  "jharkhand": {
+    "name": "Hemant Soren",
+    "honorific": "Shri",
+    "party": "JMM",
+    "color": "#008000",
+    "state": "Jharkhand",
+    "wiki": "Hemant Soren",
+    "photo": "/images/leaders/cms/jharkhand.jpg"
+  },
+  "karnataka": {
+    "name": "D. K. Shivakumar",
+    "honorific": "Shri",
+    "party": "INC",
+    "color": "#00AEEF",
+    "state": "Karnataka",
+    "wiki": "D. K. Shivakumar",
+    "photo": "/images/leaders/cms/dk_shivakumar.jpg"
+  },
+  "kerala": {
+    "name": "V. D. Satheesan",
+    "honorific": "Shri",
+    "party": "INC",
+    "color": "#00AEEF",
+    "state": "Kerala",
+    "wiki": "V. D. Satheesan",
+    "photo": "/images/leaders/cms/vd_satheesan.jpg"
+  },
+  "madhya-pradesh": {
+    "name": "Mohan Yadav",
+    "honorific": "Dr.",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Madhya Pradesh",
+    "wiki": "Mohan Yadav",
+    "photo": "/images/leaders/cms/madhya-pradesh.jpg"
+  },
+  "maharashtra": {
+    "name": "Devendra Fadnavis",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Maharashtra",
+    "wiki": "Devendra Fadnavis",
+    "photo": "/images/leaders/cms/devendra_fadnavis.jpg"
+  },
+  "manipur": {
+    "name": "Yumnam Khemchand Singh",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Manipur",
+    "wiki": "Yumnam Khemchand Singh",
+    "photo": "/images/leaders/cms/yumnam_khemchand_singh.jpg"
+  },
+  "meghalaya": {
+    "name": "Conrad Sangma",
+    "honorific": "Shri",
+    "party": "NPP",
+    "color": "#000080",
+    "state": "Meghalaya",
+    "wiki": "Conrad Sangma",
+    "photo": "/images/leaders/cms/meghalaya.jpg"
+  },
+  "mizoram": {
+    "name": "Lalduhoma",
+    "honorific": "Shri",
+    "party": "ZPM",
+    "color": "#ED1C24",
+    "state": "Mizoram",
+    "wiki": "Lalduhoma",
+    "photo": "/images/leaders/cms/mizoram.jpg"
+  },
+  "nagaland": {
+    "name": "Neiphiu Rio",
+    "honorific": "Shri",
+    "party": "NDPP",
+    "color": "#E30B5C",
+    "state": "Nagaland",
+    "wiki": "Neiphiu Rio",
+    "photo": "/images/leaders/cms/nagaland.jpg"
+  },
+  "odisha": {
+    "name": "Mohan Charan Majhi",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Odisha",
+    "wiki": "Mohan Charan Majhi",
+    "photo": "/images/leaders/cms/odisha.jpg"
+  },
+  "puducherry": {
+    "name": "N. Rangasamy",
+    "honorific": "Shri",
+    "party": "AINRC",
+    "color": "#FFCC00",
+    "state": "Puducherry",
+    "wiki": "N. Rangaswamy",
+    "photo": "/images/leaders/cms/puducherry.jpg"
+  },
+  "punjab": {
+    "name": "Bhagwant Mann",
+    "honorific": "Shri",
+    "party": "AAP",
+    "color": "#0072B0",
+    "state": "Punjab",
+    "wiki": "Bhagwant Mann",
+    "photo": "/images/leaders/cms/punjab.jpg"
+  },
+  "rajasthan": {
+    "name": "Bhajan Lal Sharma",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Rajasthan",
+    "wiki": "Bhajan Lal Sharma",
+    "photo": "/images/leaders/cms/rajasthan.jpg"
+  },
+  "sikkim": {
+    "name": "Prem Singh Tamang",
+    "honorific": "Shri",
+    "party": "SKM",
+    "color": "#D21034",
+    "state": "Sikkim",
+    "wiki": "Prem Singh Tamang",
+    "photo": "/images/leaders/cms/sikkim.jpg"
+  },
+  "tamil-nadu": {
+    "name": "C. Joseph Vijay",
+    "honorific": "Thiru",
+    "party": "TVK",
+    "color": "#FFB800",
+    "state": "Tamil Nadu",
+    "wiki": "Vijay (actor)",
+    "photo": "/images/leaders/cms/c_joseph_vijay.jpg"
+  },
+  "telangana": {
+    "name": "A. Revanth Reddy",
+    "honorific": "Shri",
+    "party": "INC",
+    "color": "#00AEEF",
+    "state": "Telangana",
+    "wiki": "Anumula Revanth Reddy",
+    "photo": "/images/leaders/cms/telangana.jpg"
+  },
+  "tripura": {
+    "name": "Manik Saha",
+    "honorific": "Dr.",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Tripura",
+    "wiki": "Manik Saha",
+    "photo": "/images/leaders/cms/tripura.jpg"
+  },
+  "uttar-pradesh": {
+    "name": "Yogi Adityanath",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Uttar Pradesh",
+    "wiki": "Yogi Adityanath",
+    "photo": "/images/leaders/cms/uttar-pradesh.jpg"
+  },
+  "uttarakhand": {
+    "name": "Pushkar Singh Dhami",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "Uttarakhand",
+    "wiki": "Pushkar Singh Dhami",
+    "photo": "/images/leaders/cms/uttarakhand.jpg"
+  },
+  "west-bengal": {
+    "name": "Suvendu Adhikari",
+    "honorific": "Shri",
+    "party": "BJP",
+    "color": "#FF6B00",
+    "state": "West Bengal",
+    "wiki": "Suvendu Adhikari",
+    "photo": "/images/leaders/cms/suvendu_adhikari.jpg"
+  }
+}

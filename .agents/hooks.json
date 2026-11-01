@@ -1,0 +1,12 @@
+{
+  "session-audit": {
+    "enabled": true,
+    "Stop": [
+      {
+        "type": "command",
+        "command": "./scripts/session-update.sh",
+        "timeout": 15
+      }
+    ]
+  }
+}

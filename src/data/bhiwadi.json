@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "state": "Rajasthan",
+    "state_slug": "rajasthan",
+    "district": "Khairthal-Tijara",
+    "district_slug": "khairthal-tijara",
+    "tehsil": "Tijara",
+    "tehsil_slug": "tijara",
+    "city": "Bhiwadi",
+    "city_slug": "bhiwadi",
+    "wards_count": 60,
+    "parliamentary_constituency": "Alwar Lok Sabha (No. 8)",
+    "assembly_constituency": "Tijara Vidhan Sabha (No. 61)",
+    "urban_local_body": "Bhiwadi Nagar Parishad (Municipal Council)"
+  },
+  "authorities": [
+    {
+      "id": "bida",
+      "name": "BIDA",
+      "short_name": "BIDA",
+      "full_name": "Bhiwadi Integrated Development Authority",
+      "type": "Regional Planning & Infrastructure Authority",
+      "icon": "🏗️",
+      "badge_color": "#D97706",
+      "head_official": {
+        "designation": "Chief Executive Officer (CEO)",
+        "name": "CEO, BIDA Administration",
+        "office": "BIDA Bhawan, Alwar Bypass Road, Bhiwadi",
+        "phone": "01493-220055",
+        "email": "ceo.bida@rajasthan.gov.in"
+      },
+      "jurisdiction_scope": "Bhiwadi Master Plan Region, NH-919 Dharuhera Border Corridor, Regional Bypass Roads & External Drainage",
+      "responsibilities": [
+        "Regional Stormwater Drainage & Flood Mitigation",
+        "Inter-State Highway 919 / Dharuhera Bypass Link",
+        "Master Plan Road & Green Belt Corridors",
+        "Large-Scale Sewage Treatment Plants (STP) & CETP Coordination"
+      ],
+      "tenders_count": 2,
+      "total_spend_inr": 212500000
+    },
+    {
+      "id": "riico",
+      "name": "RIICO",
+      "short_name": "RIICO",
+      "full_name": "Rajasthan State Industrial Development & Investment Corp.",
+      "type": "Industrial Area Infrastructure Agency",
+      "icon": "🏭",
+      "badge_color": "#0284C7",
+      "head_official": {
+        "designation": "Senior Regional Manager (SRM)",
+        "name": "Unit Head, RIICO Bhiwadi Division",
+        "office": "RIICO Industrial Complex, Phase-I, Bhiwadi",
+        "phone": "01493-221226",
+        "email": "bhiwadi@riico.co.in"
+      },
+      "jurisdiction_scope": "Industrial Sectors: RIICO Phase 1 to 4, Chopanki, Khushkhera, Tapukara, Salarpur, and Karoli Industrial Areas",
+      "responsibilities": [
+        "Internal Roads & Infrastructure inside Factory Sectors",
+        "Industrial Water Supply & Pipeline Maintenance",
+        "Industrial Plot Allotment & Infrastructure Upkeep",
+        "Factory Effluent Conduit Lines to Treatment Facilities"
+      ],
+      "tenders_count": 1,
+      "total_spend_inr": 56000000
+    },
+    {
+      "id": "nagar-parishad",
+      "name": "Nagar Parishad",
+      "short_name": "Nagar Parishad",
+      "full_name": "Bhiwadi Nagar Parishad (Municipal Council)",
+      "type": "Urban Local Body (ULB)",
+      "icon": "🏘️",
+      "badge_color": "#16A34A",
+      "head_official": {
+        "designation": "Commissioner & Chairman",
+        "name": "Dr. Gunjan Khattana (Chairman) & Municipal Commissioner",
+        "office": "Nagar Parishad Bhawan, Alwar Bypass Road, Bhiwadi",
+        "phone": "01493-220138",
+        "email": "np.bhiwadi@rajasthan.gov.in"
+      },
+      "jurisdiction_scope": "All 60 Municipal Wards, Housing Board Sectors (RHB), Residential Colonies, and Commercial Markets",
+      "responsibilities": [
+        "Door-to-Door Household Solid Waste Collection & Sanitation",
+        "Colony CC Roads, Paved Walkways & Inter-Ward Streets",
+        "Streetlighting & LED High-Mast Installations",
+        "Ward-Level Storm Drains & Vector Disease Fogging"
+      ],
+      "tenders_count": 3,
+      "total_spend_inr": 94700000
+    },
+    {
+      "id": "rspcb",
+      "name": "RSPCB",
+      "short_name": "RSPCB",
+      "full_name": "Rajasthan State Pollution Control Board (Regional Office)",
+      "type": "Environmental Regulatory Authority",
+      "icon": "🌿",
+      "badge_color": "#7C3AED",
+      "head_official": {
+        "designation": "Regional Officer (RO)",
+        "name": "Regional Environmental Engineer, RSPCB",
+        "office": "RSPCB Regional Office, RIICO Phase-II, Bhiwadi",
+        "phone": "01493-220412",
+        "email": "ro.bhiwadi@rpcb.nic.in"
+      },
+      "jurisdiction_scope": "Industrial Pollution Control across all Bhiwadi & NCR-Rajasthan Industrial Zones",
+      "responsibilities": [
+        "Zero Liquid Discharge (ZLD) Enforcement on Chemical Units",
+        "Continuous Ambient Air Quality Monitoring (AQI Tracking)",
+        "Industrial Effluent Water Testing & CETP Discharge Audit",
+        "Closure Notices & Penalties for Polluting Industrial Plants"
+      ],
+      "tenders_count": 0,
+      "total_spend_inr": 0
+    }
+  ],
+  "representatives": [
+    {
+      "id": "rep-councilor-bhiwadi",
+      "name": "Dr. Gunjan Khattana",
+      "tier": "local",
+      "designation": "President / Chairman, Bhiwadi Nagar Parishad",
+      "constituency": "Bhiwadi Nagar Parishad (Ward No. 14)",
+      "party": "BJP",
+      "party_color": "#FF6B00",
+      "term_start": "2026",
+      "term_end": "2031",
+      "photo_url": "/images/reps/placeholder.png",
+      "contact": {
+        "office": "Nagar Parishad Bhawan, Alwar Bypass Road, Bhiwadi, Khairthal-Tijara 301019",
+        "phone": "01493-220138",
+        "email": "np.bhiwadi@rajasthan.gov.in"
+      },
+      "funds": {
+        "scheme": "15th Finance Commission & Municipal Development Fund",
+        "allocated_inr": 35000000,
+        "sanctioned_inr": 28400000,
+        "disbursed_inr": 18200000
+      },
+      "myneta": {
+        "profile_url": "https://sec.rajasthan.gov.in/Nominations/10004_29248_ULBBHIWW1_8K31K20261P44P30PM.pdf",
+        "criminal_cases": 0,
+        "declared_assets_inr": 11500000,
+        "declared_liabilities_inr": 0,
+        "education": "Post Graduate / Doctorate",
+        "age": 26,
+        "source_label": "SEC Rajasthan Official Nomination Affidavit (Direct PDF)"
+      },
+      "promises": [
+        {
+          "id": "p-001",
+          "title": "Comprehensive Desilting of Major Stormwater Drains across all 60 Wards",
+          "category": "Pollution & Drainage",
+          "status": "inProgress",
+          "evidence": "Tender #NPB/2025/DR-04 sanctioned for ₹3.42 Cr under LSG Rajasthan",
+          "source_url": "https://sppp.rajasthan.gov.in"
+        },
+        {
+          "id": "p-002",
+          "title": "Door-to-Door Waste Collection & Material Recovery Facility (MRF)",
+          "category": "Sanitation & Waste",
+          "status": "inProgress",
+          "evidence": "Work Order issued to GreenClean Urban Services on 12-Feb-2025",
+          "source_url": "https://sppp.rajasthan.gov.in"
+        },
+        {
+          "id": "p-003",
+          "title": "LED High-Mast & Streetlight Modernization across Sector Parks",
+          "category": "Electricity & Lighting",
+          "status": "delivered",
+          "evidence": "Completed under Nagar Parishad Electrification Drive (₹1.85 Cr)",
+          "source_url": "https://sppp.rajasthan.gov.in"
+        },
+        {
+          "id": "p-004",
+          "title": "Internal CC Road Network & Paver Tiles in Residential Sectors",
+          "category": "Roads & Infrastructure",
+          "status": "inProgress",
+          "evidence": "Package 3 works ongoing across Wards 11 to 24",
+          "source_url": "https://sppp.rajasthan.gov.in"
+        }
+      ]
+    },
+    {
+      "id": "rep-mla-tijara",
+      "name": "Mahant Balaknath (Yogi Balaknath)",
+      "tier": "state",
+      "designation": "Member of Legislative Assembly (MLA)",
+      "constituency": "Tijara Assembly Constituency (No. 61)",
+      "party": "BJP",
+      "party_color": "#FF6B00",
+      "term_start": "2023",
+      "term_end": "2028",
+      "photo_url": "/images/reps/placeholder.png",
+      "contact": {
+        "office": "MLA Camp Office, Bhiwadi & Baba Mastnath Ashram, Tijara",
+        "phone": "01493-251200",
+        "email": "mla.tijara@rajasthan.gov.in"
+      },
+      "funds": {
+        "scheme": "MLALAD Scheme (Rajasthan Planning Dept.)",
+        "allocated_inr": 25000000,
+        "sanctioned_inr": 19500000,
+        "disbursed_inr": 14200000
+      },
+      "myneta": {
+        "profile_url": "https://www.myneta.info/Rajasthan2023/candidate.php?candidate_id=95",
+        "criminal_cases": 1,
+        "declared_assets_inr": 1379558,
+        "declared_liabilities_inr": 0,
+        "education": "12th Pass",
+        "age": 39,
+        "source_label": "MyNeta.info (ADR) - Rajasthan 2023"
+      },
+      "promises": [
+        {
+          "id": "p-101",
+          "title": "Permanent Resolution of Bhiwadi-Dharuhera (NH-919) Waterlogging Dispute",
+          "category": "Inter-State Drainage",
+          "status": "inProgress",
+          "evidence": "Joint interstate agreement with Haryana; BIDA ₹8.75 Cr bypass drain sanctioned",
+          "source_url": "https://sppp.rajasthan.gov.in"
+        },
+        {
+          "id": "p-102",
+          "title": "Upgradation of Bhiwadi Sub-District Hospital with 100-Bed Trauma Ward",
+          "category": "Healthcare",
+          "status": "inProgress",
+          "evidence": "Administrative sanction granted by Medical & Health Dept. Rajasthan in 2024 budget",
+          "source_url": null
+        },
+        {
+          "id": "p-103",
+          "title": "4-Lane Dedicated Corridor from Bhiwadi Industrial Zone to NH-48",
+          "category": "Roads & Connectivity",
+          "status": "underReview",
+          "evidence": "Detailed Project Report (DPR) submitted to Rajasthan PWD Highway Division",
+          "source_url": null
+        },
+        {
+          "id": "p-104",
+          "title": "Youth Skill Development & ITI Center in Tijara Sub-Division",
+          "category": "Employment & Education",
+          "status": "notStarted",
+          "evidence": "Budget announcement made in Vidhan Sabha session 2024; land allocation pending",
+          "source_url": null
+        }
+      ]
+    },
+    {
+      "id": "rep-mp-alwar",
+      "name": "Bhupender Yadav",
+      "tier": "national",
+      "designation": "Member of Parliament (MP) & Union Cabinet Minister (EF&CC)",
+      "constituency": "Alwar Lok Sabha Constituency (No. 8)",
+      "party": "BJP",
+      "party_color": "#FF6B00",
+      "term_start": "2024",
+      "term_end": "2029",
+      "photo_url": "/images/reps/placeholder.png",
+      "contact": {
+        "office": "MP Office, Company Bagh Road, Alwar & Shram Shakti Bhawan, New Delhi",
+        "phone": "011-23717515",
+        "email": "mp.alwar@sansad.nic.in"
+      },
+      "funds": {
+        "scheme": "MPLADS (Ministry of Statistics & Programme Implementation)",
+        "allocated_inr": 50000000,
+        "sanctioned_inr": 36000000,
+        "disbursed_inr": 21500000
+      },
+      "myneta": {
+        "profile_url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=360",
+        "criminal_cases": 0,
+        "declared_assets_inr": 23236037,
+        "declared_liabilities_inr": 0,
+        "education": "Graduate Professional (B.A., LL.B.)",
+        "age": 55,
+        "source_label": "MyNeta.info (ADR) - Lok Sabha 2024"
+      },
+      "promises": [
+        {
+          "id": "p-201",
+          "title": "Eastern Rajasthan Canal Project (ERCP) Water Supply for Alwar & Bhiwadi",
+          "category": "Drinking Water & Irrigation",
+          "status": "inProgress",
+          "evidence": "Tripartite MoU signed between Central Govt, Rajasthan, and Madhya Pradesh (Modified PKC-ERCP)",
+          "source_url": "https://jalshakti.gov.in"
+        },
+        {
+          "id": "p-202",
+          "title": "Zero Liquid Discharge & Modernization of Bhiwadi CETP (6 MLD Capacity)",
+          "category": "Industrial Pollution & Ecology",
+          "status": "inProgress",
+          "evidence": "Central Environment Ministry ₹12.5 Cr grant released for Zero Liquid Discharge upgrade",
+          "source_url": "https://moef.gov.in"
+        },
+        {
+          "id": "p-203",
+          "title": "Delhi-Gurugram-SNB Regional Rapid Transit System (RRTS) Station Connectivity",
+          "category": "Mass Rapid Transit",
+          "status": "underReview",
+          "evidence": "NCRTC alignment review submitted to Union Ministry of Housing & Urban Affairs",
+          "source_url": "https://ncrtc.in"
+        },
+        {
+          "id": "p-204",
+          "title": "Expansion of 100-Bed ESIC Model Hospital in Bhiwadi for Industrial Workers",
+          "category": "Labour & Health",
+          "status": "inProgress",
+          "evidence": "ESIC Standing Committee approved facility expansion & specialist doctor recruitment",
+          "source_url": "https://esic.gov.in"
+        }
+      ]
+    }
+  ],
+  "tenders": [
+    {
+      "id": "tnd-2025-001",
+      "title": "Construction of RCC Covered Stormwater Drain and Bypass Pipeline along NH-919 Dharuhera Border",
+      "department": "Bhiwadi Integrated Development Authority (BIDA)",
+      "authority_id": "bida",
+      "fund_type": "mlalad",
+      "fund_label": "MLALAD / State Infrastructure",
+      "amount_inr": 87500000,
+      "contractor_name": "Shivalik Buildtech Projects Ltd.",
+      "contractor_id": "c-001",
+      "awarded_date": "2024-11-20",
+      "target_date": "2025-08-31",
+      "status": "wip",
+      "ward": null,
+      "category": "Pollution & Drainage",
+      "source_url": "https://sppp.rajasthan.gov.in"
+    },
+    {
+      "id": "tnd-2025-002",
+      "title": "Upgradation & Zero Liquid Discharge (ZLD) Technology at 6 MLD Common Effluent Treatment Plant (CETP)",
+      "department": "BIDA / Rajasthan State Pollution Control Board",
+      "authority_id": "bida",
+      "fund_type": "mplad",
+      "fund_label": "MPLAD / Union Ministry Grant",
+      "amount_inr": 125000000,
+      "contractor_name": "EnviroCare Solutions India Ltd.",
+      "contractor_id": "c-002",
+      "awarded_date": "2024-08-15",
+      "target_date": "2025-12-31",
+      "status": "wip",
+      "ward": null,
+      "category": "Pollution & Drainage",
+      "source_url": "https://sppp.rajasthan.gov.in"
+    },
+    {
+      "id": "tnd-2025-003",
+      "title": "Reconstruction of 60ft Master Plan Sector Road with Paver Tile Footpaths in RIICO Phase 1-3",
+      "department": "RIICO / BIDA Industrial Division",
+      "authority_id": "riico",
+      "fund_type": "departmental",
+      "fund_label": "RIICO Industrial Fund",
+      "amount_inr": 56000000,
+      "contractor_name": "Apex Highways & Infra Pvt. Ltd.",
+      "contractor_id": "c-003",
+      "awarded_date": "2025-01-10",
+      "target_date": "2025-10-31",
+      "status": "awarded",
+      "ward": null,
+      "category": "Roads & Infrastructure",
+      "source_url": "https://sppp.rajasthan.gov.in"
+    },
+    {
+      "id": "tnd-2025-004",
+      "title": "Comprehensive Desilting and Deep Cleaning of Major Stormwater Drains across Bhiwadi Urban Area",
+      "department": "Bhiwadi Nagar Parishad",
+      "authority_id": "nagar-parishad",
+      "fund_type": "departmental",
+      "fund_label": "Municipal Development Fund",
+      "amount_inr": 34200000,
+      "contractor_name": "Aravalli Infra Engineers & Contractors",
+      "contractor_id": "c-004",
+      "awarded_date": "2025-02-05",
+      "target_date": "2025-06-30",
+      "status": "wip",
+      "ward": null,
+      "category": "Pollution & Drainage",
+      "source_url": "https://sppp.rajasthan.gov.in"
+    },
+    {
+      "id": "tnd-2025-005",
+      "title": "Door-to-Door Solid Waste Collection, Segregation, and Material Recovery Facility Operation (60 Wards)",
+      "department": "Bhiwadi Nagar Parishad",
+      "authority_id": "nagar-parishad",
+      "fund_type": "departmental",
+      "fund_label": "Swachh Bharat / Municipal Budget",
+      "amount_inr": 42000000,
+      "contractor_name": "GreenClean Urban Services",
+      "contractor_id": "c-005",
+      "awarded_date": "2024-09-01",
+      "target_date": "2027-08-31",
+      "status": "wip",
+      "ward": null,
+      "category": "Sanitation & Waste",
+      "source_url": "https://sppp.rajasthan.gov.in"
+    },
+    {
+      "id": "tnd-2024-006",
+      "title": "Installation of Energy-Efficient High-Mast LED Lighting across Major Road Junctions and Sector Parks",
+      "department": "Bhiwadi Nagar Parishad",
+      "authority_id": "nagar-parishad",
+      "fund_type": "departmental",
+      "fund_label": "Municipal Budget",
+      "amount_inr": 18500000,
+      "contractor_name": "Surya Illumination Technologies",
+      "contractor_id": "c-006",
+      "awarded_date": "2024-03-20",
+      "target_date": "2024-11-30",
+      "status": "completed",
+      "ward": null,
+      "category": "Electricity & Lighting",
+      "source_url": "https://sppp.rajasthan.gov.in"
+    }
+  ],
+  "contractors": [
+    {
+      "id": "c-002",
+      "name": "EnviroCare Solutions India Ltd.",
+      "total_contracts": 1,
+      "total_value_inr": 125000000
+    },
+    {
+      "id": "c-001",
+      "name": "Shivalik Buildtech Projects Ltd.",
+      "total_contracts": 1,
+      "total_value_inr": 87500000
+    },
+    {
+      "id": "c-003",
+      "name": "Apex Highways & Infra Pvt. Ltd.",
+      "total_contracts": 1,
+      "total_value_inr": 56000000
+    },
+    {
+      "id": "c-005",
+      "name": "GreenClean Urban Services",
+      "total_contracts": 1,
+      "total_value_inr": 42000000
+    },
+    {
+      "id": "c-004",
+      "name": "Aravalli Infra Engineers & Contractors",
+      "total_contracts": 1,
+      "total_value_inr": 34200000
+    },
+    {
+      "id": "c-006",
+      "name": "Surya Illumination Technologies",
+      "total_contracts": 1,
+      "total_value_inr": 18500000
+    }
+  ]
+}
