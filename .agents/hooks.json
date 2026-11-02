@@ -4,7 +4,7 @@
     "Stop": [
       {
         "type": "command",
-        "command": "./scripts/session-update.sh",
+        "command": "sh -c 'if [ -f ./scripts/session-update.sh ]; then ./scripts/session-update.sh; elif [ -f ../scripts/session-update.sh ]; then ../scripts/session-update.sh; elif [ -f ./apka-neta/scripts/session-update.sh ]; then ./apka-neta/scripts/session-update.sh; fi'",
         "timeout": 15
       }
     ]

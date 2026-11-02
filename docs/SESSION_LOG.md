@@ -23,3 +23,30 @@ M package-lock.json
 ?? src/types/
 ```
 ---
+
+### Session Update — 2026-11-02 15:52:45
+- **Conversation ID:** `test-123`
+- **Termination Reason:** `MANUAL_TEST`
+- **Recent Git Status:**
+```
+Clean working tree
+```
+---
+
+### Session Update — 2026-11-02 15:53:20
+- **Conversation ID:** `test-from-agents`
+- **Termination Reason:** `AGENTS_DIR_TEST`
+- **Recent Git Status:**
+```
+M docs/SESSION_LOG.md
+```
+---
+
+### Session Update — 2026-11-02 15:53:31
+- **Conversation ID:** `test-from-projects`
+- **Termination Reason:** `PROJECTS_DIR_TEST`
+- **Recent Git Status:**
+```
+M docs/SESSION_LOG.md
+```
+---
